@@ -56,6 +56,11 @@ img {
 .none {
     display: none;
 }
+.align {
+    width: fit-content;
+    height: 65%;
+    margin: auto;
+}
 @media screen and (max-width: 1000px) {
     .section-1, .section-2{
         width: 100%;
@@ -77,8 +82,10 @@ img {
     }
     .about,.heading-2 .pne {
         padding-left: 20px;
-        /* margin-top: 50px; */
         text-align: center;
+    }
+    .align{
+        margin-left: 0px;
     }
     
 }
@@ -87,4 +94,20 @@ img {
         display: flex;
         flex-direction: column;
     }
+}
+
+.icons, .social-items {
+    list-style: none;
+}
+.icons img {
+    border-radius: 50%;
+    height: 50px;
+    border: 0px solid ;
+}
+.icon-section, .social {
+    margin-left: -50px;
+    display: flex;
+}
+.links a {
+    font-size: 20px;
 }
