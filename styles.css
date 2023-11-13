@@ -69,23 +69,29 @@ img {
     .unordered-list {
         justify-content: space-around;
     }
-    .c11, .c12, .c22 {
+    .c11, .c12, .c22, .c {
         width: 100%;
     }
     img {
         margin: auto;
     }
     .heading, .heading-2 {
-        font-size: 40px;
+        width: fit-content;
+        font-size: 32px;
         margin: auto;
         margin-bottom: 50px;
     }
-    .about,.heading-2 .pne {
+    .about,.heading-2, .pne {
         padding-left: 20px;
         text-align: center;
     }
     .align{
+        width: 100%;
         margin-left: 0px;
+        margin: auto;
+    }
+    .icons {
+        margin: auto;
     }
     
 }
