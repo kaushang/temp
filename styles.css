@@ -70,13 +70,14 @@ img {
     img {
         margin: auto;
     }
-    .heading {
+    .heading, .heading-2 {
         font-size: 40px;
         margin: auto;
+        margin-bottom: 50px;
     }
-    .about, .heading-2, .pne {
+    .about,.heading-2 .pne {
         padding-left: 20px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
         text-align: center;
     }
     
