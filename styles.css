@@ -114,11 +114,6 @@ img {
         margin-top: 20px;
         margin-bottom: 0px;
     }
-    .svg {
-        display: none;
-    }
-
-
 }
 .icons, .social-items {
     list-style: none;
