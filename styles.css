@@ -40,8 +40,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 45%;
-    justify-content: center;
-    padding-right: 100px;    
+    justify-content: center; 
 }
 .heading {
     font-size: 48px;
