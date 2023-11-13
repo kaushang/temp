@@ -68,3 +68,9 @@ img {
     }
     
 }
+@media screen and (max-width: 500px) {
+    .unordered-list{
+        display: flex;
+        flex-direction: column;
+    }
+}
